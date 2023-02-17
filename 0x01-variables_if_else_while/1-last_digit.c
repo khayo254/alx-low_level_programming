@@ -1,9 +1,9 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
- * main -last number
+ * main - Last number of n
  *
  * Return: Always 0.
  */
