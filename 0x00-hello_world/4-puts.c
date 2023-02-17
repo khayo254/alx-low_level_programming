@@ -1,5 +1,4 @@
 #include<sitdio.h>
-
 /**
 * main - Programming is like building a multilingual puzzle
 *
