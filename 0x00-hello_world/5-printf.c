@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	printf("Writing with proper grammar is like creating a piece of art,\n");
+	printf("writing with proper grammar is like creating a piece of art,\n");
 	return (0);
 }
