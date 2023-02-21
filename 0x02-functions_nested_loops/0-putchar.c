@@ -1,8 +1,14 @@
 #include <stdio.h>
 
-int main()
+/**
+ * main - Print putchar
+ *
+ * Return: Always 0.
+ */
+
+int main(void)
 {
 	printf("_putchar\n");
 
-	return 0;
+	return (0);
 }
