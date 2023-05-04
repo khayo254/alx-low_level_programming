@@ -16,10 +16,11 @@ unsigned int binary_to_uint(const char *b)
 		return (0);
 
 	/* loop over every character in the string */
-	for (int i = 0; b[i] != '0'; i++)
+	for (int i = 0; b[i]; i++)
 	{
 		/* check if b is 0 or 1 */
-		if (b[i] == '0' || b[i] == '1')
+		if (b[i] < '0' || b[i] > '1')
+			return (0);
 		{
 			n = n * 2 + (b[i] - '0');
 		}
