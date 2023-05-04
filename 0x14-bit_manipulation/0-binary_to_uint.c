@@ -8,6 +8,7 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
+	int i;
 	unsigned int n = 0;
 
 	/* check if parametre is valid */
