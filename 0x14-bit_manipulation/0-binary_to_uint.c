@@ -7,7 +7,6 @@
  * Return: unsigned int value, or 0 if the string contains other characters
  */
 unsigned int binary_to_uint(const char *b)
-unsigned int binary_to_uint(const char *b)
 {
 	int i;
 	unsigned int dec_val = 0;
