@@ -7,23 +7,20 @@
  * Return: unsigned int value, or 0 if the string contains other characters
  */
 unsigned int binary_to_uint(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	int i;
-	unsigned int n = 0;
+	unsigned int dec_val = 0;
 
-	/* check if parametre is valid */
-	if (b == NULL)
+	if (!b)
 		return (0);
 
-	/* loop over every character in the string */
-	for (int i = 0; b[i]; i++)
+	for (i = 0; b[i]; i++)
 	{
-		/* check if b is 0 or 1 */
 		if (b[i] < '0' || b[i] > '1')
 			return (0);
-		{
-			n = n * 2 + (b[i] - '0');
-		}
+		dec_val = 2 * dec_val + (b[i] - '0');
 	}
-	return (n);
+
+	return (dec_val);
 }
