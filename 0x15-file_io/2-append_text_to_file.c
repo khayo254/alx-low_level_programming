@@ -13,32 +13,22 @@ int append_text_to_file(const char *filename, char *text_content)
 	int bytes_written;
 	int i = 0;
 
-	/* Check if filename is null */
 	if (filename == NULL)
 		return (-1);
 
-	/* get the length of the text content */
 	if (text_content != NULL)
 	{
-		while (text_content[i])
+		for (i = 0; text_content[i])
 			i++;
 	}
 
-	/* open the file for appending */
 	fd = open(filename, O_WRONLY | O_APPEND);
-	if (fd == -1)
+	bytes_written = write(fd, text_content, i);
+
+	if (fd == -1 || bytes_written == -1)
 		return (-1);
 
-	/* Write the text to the file */
-	if (text_content != NULL)
-	{
-		if (write(fd, text_content, i) == -1)
-		{
-			close(fd);
-			return (-1);
-		}
-	}
-
 	close(fd);
+
 	return (1);
 }
