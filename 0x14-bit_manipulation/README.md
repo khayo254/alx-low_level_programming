@@ -2,7 +2,7 @@
 
 This project explores the concepts of bit manipulation in C programming. It contains some commonly used functions used to manipulate a single bit or a group of bits in a memory address. 
 
-## Files
+### Files
 
 | File                  | Description                                  |
 | --------------------- | -------------------------------------------- |
@@ -13,22 +13,22 @@ This project explores the concepts of bit manipulation in C programming. It cont
 | 4-clear_bit.c         | Clears a single bit of an unsigned int       |
 | 5-flip_bits.c         | Flips the bits of an unsigned int           |
 
-## Requirements
+### Requirements
 
 The project is written and tested on Ubuntu 18.04.4 LTS.
 
-## Compilation
+#### Compilation
 
 All of the C files are compiled using the gcc 4.8.4 compiler, with the flags -Wall -Werror -Wextra and -pedantic
 
 $ gcc -Wall -Werror -Wextra -pedantic *.c -o [name of executable]
 
 
-## Usage
+### Usage
 
 Once the program is compiled, it can be executed with the following command:
 
-$ ./[name of executable]
+$ ./*.c 
 
 
 ## Author
