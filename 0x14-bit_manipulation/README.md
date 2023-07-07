@@ -1,4 +1,3 @@
-Sure! Here's an example `README.md` file for the `0x14` directory, which contains C code related to bit manipulation:
 
 # 0x14. C - Bit manipulation
 
@@ -16,7 +15,7 @@ By the end of this project, students should be able to:
 
 The following files are included in this directory:
 
-- `holberton.h`: Header file containing function prototypes for all functions used in the project.
+- `main.h`: Header file containing function prototypes for all functions used in the project.
 - `0-binary_to_uint.c`: Function that converts a binary string to an unsigned integer value.
 - `1-print_binary.c`: Function that prints the binary representation of an unsigned long integer value.
 - `2-get_bit.c`: Function that returns the value of a bit at a given index in an unsigned long integer value.
