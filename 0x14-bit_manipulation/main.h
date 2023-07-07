@@ -12,4 +12,7 @@ int _putchar(char c);
 int get_endianness(void);
 
 #endif
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5b6f3d74c7f6176c6687897df7d70063b452a587
